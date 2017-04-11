@@ -35,7 +35,7 @@ lab3.onclick = function(){
 	lab4.style.cssText="background:rgb(244,208,63);color:black";
 	div2.style.cssText="opacity:0;";
 	div3.style.cssText="opacity:0;";
-	div4.style.cssText="opacity:1;transition: 3s;";
+	div4.style.cssText="opacity:1;transition: 3s;z-index: 1;";
 	div5.style.cssText="opacity:0;";
 }
 lab4.onclick = function(){
@@ -46,5 +46,5 @@ lab4.onclick = function(){
 	div2.style.cssText="opacity:0;";
 	div3.style.cssText="opacity:0;";
 	div4.style.cssText="opacity:0;";
-	div5.style.cssText="opacity:1;transition: 3s;";
+	div5.style.cssText="opacity:1;transition: 3s;z-index: 1;";
 }
